@@ -95,8 +95,8 @@ public class Options
     /// <summary>
     /// The fileName to process
     /// </summary>
-    [Option('f', "file", Required = false, HelpText = "File to process", Default = "kennedy.wav")]
-    public string FileName { get; set; } = "kennedy.wav";
+    [Option('f', "file", Required = false, HelpText = "File to process", Default = "Generic2013.wav")]
+    public string FileName { get; set; } = "Generic2013.wav";
 
     /// <summary>
     /// The language to be used, or `auto` if auto-detection should be tried.

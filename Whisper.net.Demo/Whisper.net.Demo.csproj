@@ -15,6 +15,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Update="Generic2013.wav">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 		<None Update="kennedy.wav">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>

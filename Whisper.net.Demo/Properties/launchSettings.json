@@ -2,28 +2,28 @@
   "profiles": {
     "Demo Romanian Detected": {
       "commandName": "Project",
-      "nativeDebugging": true,
-      "commandLineArgs": "-f romana.wav"
+      "commandLineArgs": "-f romana.wav",
+      "nativeDebugging": true
     },
     "Demo Romanian Provided Base": {
       "commandName": "Project",
-      "nativeDebugging": true,
-      "commandLineArgs": "-f romana.wav -l ro"
+      "commandLineArgs": "-f romana.wav -l ro",
+      "nativeDebugging": true
     },
     "Demo Romanian Provided Medium": {
       "commandName": "Project",
-      "nativeDebugging": true,
-      "commandLineArgs": "-f romana.wav -g Medium -m medium.bin -l ro"
+      "commandLineArgs": "-f romana.wav -g Medium -m medium.bin -l ro",
+      "nativeDebugging": true
     },
     "Demo English Detected": {
       "commandName": "Project",
-      "nativeDebugging": true,
-      "commandLineArgs": "-f kennedy.wav"
+      "commandLineArgs": "-f Generic2013.wav",
+      "nativeDebugging": true
     },
     "Demo English TinyEn Provided": {
       "commandName": "Project",
-      "nativeDebugging": true,
-      "commandLineArgs": "-f kennedy.wav -g TinyEn -m tiny-en.bin -l en"
+      "commandLineArgs": "-f kennedy.wav -g TinyEn -m tiny-en.bin -l en",
+      "nativeDebugging": true
     }
   }
 }
