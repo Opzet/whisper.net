@@ -76,6 +76,9 @@ async Task FullDetection(Options opt)
     {
         Console.WriteLine($"New Segment: {segment.Start} ==> {segment.End} : {segment.Text}");
     }
+
+    Console.WriteLine("Press <ENTER> to exit...");
+    Console.ReadLine();
 }
 
 /// <summary>

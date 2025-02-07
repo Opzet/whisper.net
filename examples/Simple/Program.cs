@@ -41,6 +41,9 @@ public class Program
         {
             Console.WriteLine($"{result.Start}->{result.End}: {result.Text}");
         }
+
+        Console.WriteLine("Press <ENTER> to exit...");
+        Console.ReadLine();
     }
 
     private static async Task DownloadModel(string fileName, GgmlType ggmlType)
